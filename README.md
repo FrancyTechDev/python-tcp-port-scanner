@@ -32,6 +32,12 @@ for more advanced vulnerability assessment tools.
 - Python 3.9+
 - Linux / macOS / Windows
 
+## Example Output
+
+[+] Port 443 is open
+[-] Port 22 is closed
+
+
 ## Audit Context
 
 This tool is used as a preliminary step in a non-invasive security audit.
