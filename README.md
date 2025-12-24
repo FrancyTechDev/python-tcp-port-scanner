@@ -37,6 +37,8 @@ for more advanced vulnerability assessment tools.
 [+] Port 443 is open
 [-] Port 22 is closed
 
+![TCP Port Scan Example](screenshots/example_scan.png)
+
 
 ## Audit Context
 
