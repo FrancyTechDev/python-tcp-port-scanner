@@ -32,6 +32,13 @@ for more advanced vulnerability assessment tools.
 - Python 3.9+
 - Linux / macOS / Windows
 
+## Audit Context
+
+This tool is used as a preliminary step in a non-invasive security audit.
+It helps identify exposed services and open ports on public-facing systems
+before conducting higher-level vulnerability assessments.
+
+
 ## Installation
 
 ```bash
