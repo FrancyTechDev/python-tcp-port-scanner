@@ -34,8 +34,8 @@ for more advanced vulnerability assessment tools.
 
 ## Example Output
 
-[+] Port 443 is open
-[-] Port 22 is closed
+[+] Port 80 is open
+[+] Port 22 is open
 
 ![TCP Port Scan Example](screenshots/example_scan.png)
 
