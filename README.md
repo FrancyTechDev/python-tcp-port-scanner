@@ -1,3 +1,4 @@
+```markdown
 # Python TCP Port Scanner
 
 A minimal and reliable TCP port scanner written in Python, designed for
@@ -37,8 +38,7 @@ for more advanced vulnerability assessment tools.
 [+] Port 80 is open
 [+] Port 22 is open
 
-![TCP Port Scan Example](screenshots/example_scan.png)
-
+```
 
 ## Audit Context
 
@@ -46,28 +46,39 @@ This tool is used as a preliminary step in a non-invasive security audit.
 It helps identify exposed services and open ports on public-facing systems
 before conducting higher-level vulnerability assessments.
 
-
 ## Installation
 
 ```bash
-git clone https://github.com/FrancyTechDev/python-tcp-port-scanner.git
+git clone [https://github.com/FrancyTechDev/python-tcp-port-scanner.git](https://github.com/FrancyTechDev/python-tcp-port-scanner.git)
 cd python-tcp-port-scanner
 chmod +x scanner.py
 
-Usage
+```
 
+## Usage
+
+```bash
 ./scanner.py <host> <port>
 
-Example
+```
 
+### Example
+
+```bash
 ./scanner.py google.com 443
 
-Output:
+```
 
+**Output:**
+
+```text
 [+] Port 443 is open
 
-Project Structure
+```
 
+## Project Structure
+
+```text
 .
 ├── scanner.py
 ├── README.md
@@ -75,42 +86,38 @@ Project Structure
 ├── requirements.txt
 └── docs/
 
-Design Notes
+```
 
-    Uses a blocking TCP connect scan for simplicity and reliability
+## Design Notes
 
-    Explicit timeouts prevent hanging connections
+* Uses a blocking TCP connect scan for simplicity and reliability
+* Explicit timeouts prevent hanging connections
+* Minimal codebase to ease auditing and extension
 
-    Minimal codebase to ease auditing and extension
+## Limitations
 
-Limitations
-
-    Single-port scanning
-
-    No parallel execution
-
-    No service fingerprinting
+* Single-port scanning
+* No parallel execution
+* No service fingerprinting
 
 These limitations are intentional and documented.
-Roadmap
 
-    Multi-port scanning
+## Roadmap
 
-    Parallel connections
+* Multi-port scanning
+* Parallel connections
+* JSON and HTML report output
+* Integration into an automated audit pipeline
 
-    JSON and HTML report output
+## Legal Disclaimer
 
-    Integration into an automated audit pipeline
+> This tool is intended only for educational purposes and for scanning systems
+> you own or have explicit permission to test. Unauthorized scanning of
+> third-party systems may be illegal.
 
-Legal Disclaimer
+## Author
 
-This tool is intended only for educational purposes and for scanning systems
-you own or have explicit permission to test. Unauthorized scanning of
-third-party systems may be illegal.
-Author
+**FrancyTech**
+GitHub: [https://github.com/FrancyTechDev](https://github.com/FrancyTechDev)
 
-FrancyTech
-GitHub: https://github.com/FrancyTechDev
-
-LinkedIn: https://www.linkedin.com/in/francesco-macr%C3%AC-61645939a/
-
+LinkedIn: [Francesco Macrì](https://www.linkedin.com/in/francesco-macr%C3%AC-61645939a/)
